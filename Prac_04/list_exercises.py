@@ -14,11 +14,11 @@ print("The largest number is", max(numbers))
 print("The average of the number is", sum(numbers) / len(numbers))
 print("Invalid input, Please enter a number")
 
-
 """
 2. Woefully inadequate security checker
 """
-usernames = ['jimbo', 'giltson98', 'derekf', 'WhatSup', 'NicolEye', 'swei45', 'BaseInterpreterInterface', 'BaseStdIn', 'Command', 'ExecState', 'InteractiveConsole', 'InterpreterInterface', 'StartServer', 'bob']
+usernames = ['jimbo', 'giltson98', 'derekf', 'WhatSup', 'NicolEye', 'swei45', 'BaseInterpreterInterface', 'BaseStdIn',
+             'Command', 'ExecState', 'InteractiveConsole', 'InterpreterInterface', 'StartServer', 'bob']
 
 username = input("Enter username: ")
 if username in usernames:
