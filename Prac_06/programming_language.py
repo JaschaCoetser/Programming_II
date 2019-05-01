@@ -1,5 +1,5 @@
 """
-Programming Language Class, Intermediate Exercise
+Programming Language Class
 """
 
 
@@ -18,7 +18,7 @@ class ProgrammingLanguage:
     def is_dynamic(self):
         return self.typing == "Dynamic"
 
-    
+
 def run_tests():
     ruby = ProgrammingLanguage("Ruby", "Dynamic", True, 1995)
     python = ProgrammingLanguage("Python", "Dynamic", True, 1991)
@@ -31,3 +31,4 @@ def run_tests():
     for language in languages:
         if language.is_dynamic():
             print(language.name)
+
