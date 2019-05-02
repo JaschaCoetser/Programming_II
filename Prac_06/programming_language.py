@@ -31,4 +31,3 @@ def run_tests():
     for language in languages:
         if language.is_dynamic():
             print(language.name)
-
